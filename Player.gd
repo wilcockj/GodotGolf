@@ -1,5 +1,4 @@
 extends KinematicBody2D
-signal hit
 export var speed = 100 # How fast the player will move (pixels/sec).
 export var friction = 0.1
 var screen_size # Size of the game window.

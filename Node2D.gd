@@ -1,8 +1,6 @@
 extends Node2D
 
 var title = "Game v0.1"
-var startloc = Vector2.ZERO
-var endloc = Vector2.ZERO
 func _process(delta):
 	OS.set_window_title(title + " | fps: " + str(Engine.get_frames_per_second()))
 	
