@@ -6,15 +6,14 @@
 [sub_resource type="CircleShape2D" id=2]
 
 [node name="Player" type="KinematicBody2D"]
-position = Vector2( 21, 20.5802 )
 script = ExtResource( 1 )
 
 [node name="Golfball" type="Sprite" parent="."]
-position = Vector2( -21.0331, -21.0331 )
+position = Vector2( -2.28882e-05, -2.28882e-05 )
 scale = Vector2( 0.25, 0.25 )
 texture = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -21, -20.6027 )
+position = Vector2( 0, 1.49012e-08 )
 scale = Vector2( 0.9, 0.9 )
 shape = SubResource( 2 )
